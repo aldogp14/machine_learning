@@ -1,0 +1,38 @@
+{
+    "os": "Windows-10-10.0.22621-SP0",
+    "python": "3.7.9",
+    "heartbeatAt": "2023-10-27T07:44:35.304760",
+    "startedAt": "2023-10-27T07:44:34.409608",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "<python with no main file>",
+    "codePathLocal": null,
+    "host": "DESKTOP-J864HIV",
+    "username": "COMPUTOCKS",
+    "executable": "c:\\Users\\COMPUTOCKS\\AppData\\Local\\Programs\\Python\\Python37\\python.exe",
+    "cpu_count": 4,
+    "cpu_count_logical": 8,
+    "cpu_freq": {
+        "current": 1910.0,
+        "min": 0.0,
+        "max": 2112.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 1910.0,
+            "min": 0.0,
+            "max": 2112.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 237.68847274780273,
+            "used": 99.7812728881836
+        }
+    },
+    "memory": {
+        "total": 7.837867736816406
+    }
+}

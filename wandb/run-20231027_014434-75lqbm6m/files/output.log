@@ -1,0 +1,13 @@
+162 54 55
+0.8686829805374146
+0.5602887272834778
+0.5601755976676941
+0.5601751804351807
+0.5601751804351807
+0.5601751804351807
+0.5601751804351807
+0.5601751804351807
+0.5601751804351807
+0.5601751804351807
+The network got 43 correct predictions out of 55 possibles!
+c:\Users\COMPUTOCKS\AppData\Local\Programs\Python\Python37\lib\site-packages\torch\nn\functional.py:1967: UserWarning: nn.functional.sigmoid is deprecated. Use torch.sigmoid instead.

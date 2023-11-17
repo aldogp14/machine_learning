@@ -1,0 +1,28 @@
+2023-11-16 21:56:06,205 INFO    MainThread:11348 [wandb_setup.py:_flush():76] Current SDK version is 0.15.12
+2023-11-16 21:56:06,208 INFO    MainThread:11348 [wandb_setup.py:_flush():76] Configure stats pid to 11348
+2023-11-16 21:56:06,208 INFO    MainThread:11348 [wandb_setup.py:_flush():76] Loading settings from C:\Users\COMPUTOCKS\.config\wandb\settings
+2023-11-16 21:56:06,208 INFO    MainThread:11348 [wandb_setup.py:_flush():76] Loading settings from C:\Users\COMPUTOCKS\Desktop\semestre_5\machine_learning\wandb\settings
+2023-11-16 21:56:06,209 INFO    MainThread:11348 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2023-11-16 21:56:06,209 INFO    MainThread:11348 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2023-11-16 21:56:06,211 INFO    MainThread:11348 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'FFNN.py', 'program_abspath': 'c:\\Users\\COMPUTOCKS\\Desktop\\semestre_5\\machine_learning\\FFNN.py', 'program': 'c:/Users/COMPUTOCKS/Desktop/semestre_5/machine_learning/FFNN.py'}
+2023-11-16 21:56:06,213 INFO    MainThread:11348 [wandb_init.py:_log_setup():528] Logging user logs to C:\Users\COMPUTOCKS\Desktop\semestre_5\machine_learning\wandb\run-20231116_215606-0gc5du1k\logs\debug.log
+2023-11-16 21:56:06,213 INFO    MainThread:11348 [wandb_init.py:_log_setup():529] Logging internal logs to C:\Users\COMPUTOCKS\Desktop\semestre_5\machine_learning\wandb\run-20231116_215606-0gc5du1k\logs\debug-internal.log
+2023-11-16 21:56:06,213 INFO    MainThread:11348 [wandb_init.py:init():568] calling init triggers
+2023-11-16 21:56:06,213 INFO    MainThread:11348 [wandb_init.py:init():576] wandb.init called with sweep_config: {}
+config: {'epochs': 1000, 'batch_size': 10, 'learning_rate': 0.0001, 'weight_decay': 0.025, 'patience': 5, 'delta_earlyStopping': 0.001, 'number_features': 162}
+2023-11-16 21:56:06,214 INFO    MainThread:11348 [wandb_init.py:init():618] starting backend
+2023-11-16 21:56:06,214 INFO    MainThread:11348 [wandb_init.py:init():622] setting up manager
+2023-11-16 21:56:06,226 INFO    MainThread:11348 [backend.py:_multiprocessing_setup():107] multiprocessing start_methods=spawn, using: spawn
+2023-11-16 21:56:06,233 INFO    MainThread:11348 [wandb_init.py:init():628] backend started and connected
+2023-11-16 21:56:06,253 INFO    MainThread:11348 [wandb_init.py:init():720] updated telemetry
+2023-11-16 21:56:06,424 INFO    MainThread:11348 [wandb_init.py:init():753] communicating run to backend with 90.0 second timeout
+2023-11-16 21:56:07,122 INFO    MainThread:11348 [wandb_run.py:_on_init():2220] communicating current version
+2023-11-16 21:56:07,589 INFO    MainThread:11348 [wandb_run.py:_on_init():2229] got version response upgrade_message: "wandb version 0.16.0 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2023-11-16 21:56:07,605 INFO    MainThread:11348 [wandb_init.py:init():804] starting run threads in backend
+2023-11-16 21:56:08,262 INFO    MainThread:11348 [wandb_run.py:_console_start():2199] atexit reg
+2023-11-16 21:56:08,262 INFO    MainThread:11348 [wandb_run.py:_redirect():2054] redirect: wrap_raw
+2023-11-16 21:56:08,270 INFO    MainThread:11348 [wandb_run.py:_redirect():2119] Wrapping output streams.
+2023-11-16 21:56:08,270 INFO    MainThread:11348 [wandb_run.py:_redirect():2144] Redirects installed.
+2023-11-16 21:56:08,273 INFO    MainThread:11348 [wandb_init.py:init():845] run started, returning control to user process
+2023-11-16 22:06:44,573 WARNING MsgRouterThr:11348 [router.py:message_loop():77] message_loop has been closed

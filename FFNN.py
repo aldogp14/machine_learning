@@ -5,6 +5,7 @@ import torch.nn.functional as F
 import torch.utils.data
 from sklearn.model_selection import train_test_split
 import matplotlib.pyplot as plt
+import seaborn as sns
 import pandas as pd
 import numpy as np
 from pytorchtools import EarlyStopping
@@ -197,6 +198,31 @@ conf_matrix = confusion_matrix(y_test, y_pred_test, labels=[1,0])
 conf_matrix = pd.DataFrame(conf_matrix)
 print(f'Confusion Matrix:\n{conf_matrix}')
 
+# Plot the confusion matrix
+plt.figure(figsize=(6, 6))
+sns.heatmap(conf_matrix, annot=True, fmt="d", cmap="Blues", cbar=False,
+            xticklabels=np.unique(y_test),
+            yticklabels=np.unique(y_test),
+            annot_kws={"size": 20})
+plt.title('Confusion Matrix')
+plt.xlabel('Predicted')
+plt.ylabel('True')
+plt.show()
+
 # calculate and print the AUROC
 auroc = roc_auc_score(y_test, y_pred_test)
 print('AUROC:', auroc)
+
+# Plot the ROC curve
+fpr, tpr, _ = roc_curve(y_test, y_pred_test)
+roc_auc = auc(fpr, tpr)
+plt.figure(figsize=(8, 8))
+plt.plot(fpr, tpr, color='darkorange', lw=2, label='ROC curve (area = {:.2f})'.format(roc_auc))
+plt.plot([0, 1], [0, 1], color='navy', lw=2, linestyle='--')
+plt.xlim([0.0, 1.0])
+plt.ylim([0.0, 1.05])
+plt.xlabel('False Positive Rate')
+plt.ylabel('True Positive Rate')
+plt.title('Receiver Operating Characteristic (ROC) Curve')
+plt.legend(loc="lower right")
+plt.show()

@@ -1,0 +1,931 @@
+C:\Users\COMPUTOCKS\AppData\Local\Programs\Python\Python37\lib\site-packages\torch\nn\functional.py:1967: UserWarning: nn.functional.sigmoid is deprecated. Use torch.sigmoid instead.
+  warnings.warn("nn.functional.sigmoid is deprecated. Use torch.sigmoid instead.")
+Validation loss decreased (inf --> 0.590992).  Saving model ...
+Validation loss decreased (0.590992 --> 0.589930).  Saving model ...
+Validation loss decreased (0.589930 --> 0.586826).  Saving model ...
+Validation loss decreased (0.586826 --> 0.585060).  Saving model ...
+EarlyStopping counter: 1 out of 20
+Validation loss decreased (0.585060 --> 0.583630).  Saving model ...
+EarlyStopping counter: 1 out of 20
+EarlyStopping counter: 2 out of 20
+Validation loss decreased (0.583630 --> 0.582281).  Saving model ...
+EarlyStopping counter: 1 out of 20
+EarlyStopping counter: 2 out of 20
+Validation loss decreased (0.582281 --> 0.581196).  Saving model ...
+EarlyStopping counter: 1 out of 20
+EarlyStopping counter: 2 out of 20
+EarlyStopping counter: 3 out of 20
+Validation loss decreased (0.581196 --> 0.580079).  Saving model ...
+EarlyStopping counter: 1 out of 20
+EarlyStopping counter: 2 out of 20
+EarlyStopping counter: 3 out of 20
+Validation loss decreased (0.580079 --> 0.579068).  Saving model ...
+EarlyStopping counter: 1 out of 20
+EarlyStopping counter: 2 out of 20
+EarlyStopping counter: 3 out of 20
+EarlyStopping counter: 4 out of 20
+Validation loss decreased (0.579068 --> 0.577825).  Saving model ...
+EarlyStopping counter: 1 out of 20
+EarlyStopping counter: 2 out of 20
+EarlyStopping counter: 3 out of 20
+EarlyStopping counter: 4 out of 20
+Validation loss decreased (0.577825 --> 0.576610).  Saving model ...
+EarlyStopping counter: 1 out of 20
+EarlyStopping counter: 2 out of 20
+EarlyStopping counter: 3 out of 20
+EarlyStopping counter: 4 out of 20
+Validation loss decreased (0.576610 --> 0.575374).  Saving model ...
+EarlyStopping counter: 1 out of 20
+EarlyStopping counter: 2 out of 20
+EarlyStopping counter: 3 out of 20
+Validation loss decreased (0.575374 --> 0.574371).  Saving model ...
+EarlyStopping counter: 1 out of 20
+EarlyStopping counter: 2 out of 20
+EarlyStopping counter: 3 out of 20
+Validation loss decreased (0.574371 --> 0.573351).  Saving model ...
+EarlyStopping counter: 1 out of 20
+EarlyStopping counter: 2 out of 20
+EarlyStopping counter: 3 out of 20
+Validation loss decreased (0.573351 --> 0.572293).  Saving model ...
+EarlyStopping counter: 1 out of 20
+EarlyStopping counter: 2 out of 20
+EarlyStopping counter: 3 out of 20
+Validation loss decreased (0.572293 --> 0.571209).  Saving model ...
+EarlyStopping counter: 1 out of 20
+EarlyStopping counter: 2 out of 20
+EarlyStopping counter: 3 out of 20
+Validation loss decreased (0.571209 --> 0.570095).  Saving model ...
+EarlyStopping counter: 1 out of 20
+EarlyStopping counter: 2 out of 20
+EarlyStopping counter: 3 out of 20
+Validation loss decreased (0.570095 --> 0.568902).  Saving model ...
+EarlyStopping counter: 1 out of 20
+EarlyStopping counter: 2 out of 20
+EarlyStopping counter: 3 out of 20
+Validation loss decreased (0.568902 --> 0.567666).  Saving model ...
+EarlyStopping counter: 1 out of 20
+EarlyStopping counter: 2 out of 20
+EarlyStopping counter: 3 out of 20
+Validation loss decreased (0.567666 --> 0.566385).  Saving model ...
+EarlyStopping counter: 1 out of 20
+EarlyStopping counter: 2 out of 20
+EarlyStopping counter: 3 out of 20
+Validation loss decreased (0.566385 --> 0.565057).  Saving model ...
+EarlyStopping counter: 1 out of 20
+EarlyStopping counter: 2 out of 20
+Validation loss decreased (0.565057 --> 0.564029).  Saving model ...
+EarlyStopping counter: 1 out of 20
+EarlyStopping counter: 2 out of 20
+Validation loss decreased (0.564029 --> 0.562971).  Saving model ...
+EarlyStopping counter: 1 out of 20
+EarlyStopping counter: 2 out of 20
+Validation loss decreased (0.562971 --> 0.561878).  Saving model ...
+EarlyStopping counter: 1 out of 20
+EarlyStopping counter: 2 out of 20
+Validation loss decreased (0.561878 --> 0.560745).  Saving model ...
+EarlyStopping counter: 1 out of 20
+EarlyStopping counter: 2 out of 20
+Validation loss decreased (0.560745 --> 0.559579).  Saving model ...
+EarlyStopping counter: 1 out of 20
+EarlyStopping counter: 2 out of 20
+Validation loss decreased (0.559579 --> 0.558384).  Saving model ...
+EarlyStopping counter: 1 out of 20
+EarlyStopping counter: 2 out of 20
+Validation loss decreased (0.558384 --> 0.557153).  Saving model ...
+EarlyStopping counter: 1 out of 20
+EarlyStopping counter: 2 out of 20
+Validation loss decreased (0.557153 --> 0.555890).  Saving model ...
+EarlyStopping counter: 1 out of 20
+EarlyStopping counter: 2 out of 20
+Validation loss decreased (0.555890 --> 0.554592).  Saving model ...
+EarlyStopping counter: 1 out of 20
+EarlyStopping counter: 2 out of 20
+Validation loss decreased (0.554592 --> 0.553260).  Saving model ...
+EarlyStopping counter: 1 out of 20
+EarlyStopping counter: 2 out of 20
+Validation loss decreased (0.553260 --> 0.551894).  Saving model ...
+EarlyStopping counter: 1 out of 20
+EarlyStopping counter: 2 out of 20
+Validation loss decreased (0.551894 --> 0.550497).  Saving model ...
+EarlyStopping counter: 1 out of 20
+EarlyStopping counter: 2 out of 20
+Validation loss decreased (0.550497 --> 0.549061).  Saving model ...
+EarlyStopping counter: 1 out of 20
+EarlyStopping counter: 2 out of 20
+Validation loss decreased (0.549061 --> 0.547594).  Saving model ...
+EarlyStopping counter: 1 out of 20
+EarlyStopping counter: 2 out of 20
+Validation loss decreased (0.547594 --> 0.546094).  Saving model ...
+EarlyStopping counter: 1 out of 20
+Validation loss decreased (0.546094 --> 0.545075).  Saving model ...
+EarlyStopping counter: 1 out of 20
+Validation loss decreased (0.545075 --> 0.544039).  Saving model ...
+EarlyStopping counter: 1 out of 20
+Validation loss decreased (0.544039 --> 0.542990).  Saving model ...
+EarlyStopping counter: 1 out of 20
+Validation loss decreased (0.542990 --> 0.541925).  Saving model ...
+EarlyStopping counter: 1 out of 20
+Validation loss decreased (0.541925 --> 0.540845).  Saving model ...
+EarlyStopping counter: 1 out of 20
+Validation loss decreased (0.540845 --> 0.539752).  Saving model ...
+EarlyStopping counter: 1 out of 20
+Validation loss decreased (0.539752 --> 0.538643).  Saving model ...
+EarlyStopping counter: 1 out of 20
+Validation loss decreased (0.538643 --> 0.537522).  Saving model ...
+EarlyStopping counter: 1 out of 20
+Validation loss decreased (0.537522 --> 0.536385).  Saving model ...
+EarlyStopping counter: 1 out of 20
+Validation loss decreased (0.536385 --> 0.535237).  Saving model ...
+EarlyStopping counter: 1 out of 20
+Validation loss decreased (0.535237 --> 0.534075).  Saving model ...
+EarlyStopping counter: 1 out of 20
+Validation loss decreased (0.534075 --> 0.532901).  Saving model ...
+EarlyStopping counter: 1 out of 20
+Validation loss decreased (0.532901 --> 0.531712).  Saving model ...
+EarlyStopping counter: 1 out of 20
+Validation loss decreased (0.531712 --> 0.530510).  Saving model ...
+EarlyStopping counter: 1 out of 20
+Validation loss decreased (0.530510 --> 0.529296).  Saving model ...
+EarlyStopping counter: 1 out of 20
+Validation loss decreased (0.529296 --> 0.528071).  Saving model ...
+EarlyStopping counter: 1 out of 20
+Validation loss decreased (0.528071 --> 0.526833).  Saving model ...
+EarlyStopping counter: 1 out of 20
+Validation loss decreased (0.526833 --> 0.525587).  Saving model ...
+EarlyStopping counter: 1 out of 20
+Validation loss decreased (0.525587 --> 0.524329).  Saving model ...
+EarlyStopping counter: 1 out of 20
+Validation loss decreased (0.524329 --> 0.523060).  Saving model ...
+EarlyStopping counter: 1 out of 20
+Validation loss decreased (0.523060 --> 0.521782).  Saving model ...
+EarlyStopping counter: 1 out of 20
+Validation loss decreased (0.521782 --> 0.520492).  Saving model ...
+EarlyStopping counter: 1 out of 20
+Validation loss decreased (0.520492 --> 0.519190).  Saving model ...
+EarlyStopping counter: 1 out of 20
+Validation loss decreased (0.519190 --> 0.517879).  Saving model ...
+EarlyStopping counter: 1 out of 20
+Validation loss decreased (0.517879 --> 0.516558).  Saving model ...
+EarlyStopping counter: 1 out of 20
+Validation loss decreased (0.516558 --> 0.515230).  Saving model ...
+EarlyStopping counter: 1 out of 20
+Validation loss decreased (0.515230 --> 0.513898).  Saving model ...
+EarlyStopping counter: 1 out of 20
+Validation loss decreased (0.513898 --> 0.512562).  Saving model ...
+EarlyStopping counter: 1 out of 20
+Validation loss decreased (0.512562 --> 0.511219).  Saving model ...
+EarlyStopping counter: 1 out of 20
+Validation loss decreased (0.511219 --> 0.509869).  Saving model ...
+EarlyStopping counter: 1 out of 20
+Validation loss decreased (0.509869 --> 0.508515).  Saving model ...
+EarlyStopping counter: 1 out of 20
+Validation loss decreased (0.508515 --> 0.507154).  Saving model ...
+EarlyStopping counter: 1 out of 20
+Validation loss decreased (0.507154 --> 0.505789).  Saving model ...
+EarlyStopping counter: 1 out of 20
+Validation loss decreased (0.505789 --> 0.504418).  Saving model ...
+EarlyStopping counter: 1 out of 20
+Validation loss decreased (0.504418 --> 0.503046).  Saving model ...
+EarlyStopping counter: 1 out of 20
+Validation loss decreased (0.503046 --> 0.501669).  Saving model ...
+EarlyStopping counter: 1 out of 20
+Validation loss decreased (0.501669 --> 0.500289).  Saving model ...
+EarlyStopping counter: 1 out of 20
+Validation loss decreased (0.500289 --> 0.498906).  Saving model ...
+EarlyStopping counter: 1 out of 20
+Validation loss decreased (0.498906 --> 0.497520).  Saving model ...
+EarlyStopping counter: 1 out of 20
+Validation loss decreased (0.497520 --> 0.496133).  Saving model ...
+EarlyStopping counter: 1 out of 20
+Validation loss decreased (0.496133 --> 0.494745).  Saving model ...
+EarlyStopping counter: 1 out of 20
+Validation loss decreased (0.494745 --> 0.493356).  Saving model ...
+EarlyStopping counter: 1 out of 20
+Validation loss decreased (0.493356 --> 0.491967).  Saving model ...
+EarlyStopping counter: 1 out of 20
+Validation loss decreased (0.491967 --> 0.490578).  Saving model ...
+EarlyStopping counter: 1 out of 20
+Validation loss decreased (0.490578 --> 0.489191).  Saving model ...
+EarlyStopping counter: 1 out of 20
+Validation loss decreased (0.489191 --> 0.487804).  Saving model ...
+EarlyStopping counter: 1 out of 20
+Validation loss decreased (0.487804 --> 0.486420).  Saving model ...
+EarlyStopping counter: 1 out of 20
+Validation loss decreased (0.486420 --> 0.485037).  Saving model ...
+EarlyStopping counter: 1 out of 20
+Validation loss decreased (0.485037 --> 0.483655).  Saving model ...
+EarlyStopping counter: 1 out of 20
+Validation loss decreased (0.483655 --> 0.482277).  Saving model ...
+EarlyStopping counter: 1 out of 20
+Validation loss decreased (0.482277 --> 0.480901).  Saving model ...
+EarlyStopping counter: 1 out of 20
+Validation loss decreased (0.480901 --> 0.479531).  Saving model ...
+EarlyStopping counter: 1 out of 20
+Validation loss decreased (0.479531 --> 0.478162).  Saving model ...
+EarlyStopping counter: 1 out of 20
+Validation loss decreased (0.478162 --> 0.476797).  Saving model ...
+EarlyStopping counter: 1 out of 20
+Validation loss decreased (0.476797 --> 0.475435).  Saving model ...
+EarlyStopping counter: 1 out of 20
+Validation loss decreased (0.475435 --> 0.474079).  Saving model ...
+EarlyStopping counter: 1 out of 20
+Validation loss decreased (0.474079 --> 0.472727).  Saving model ...
+EarlyStopping counter: 1 out of 20
+Validation loss decreased (0.472727 --> 0.471380).  Saving model ...
+EarlyStopping counter: 1 out of 20
+Validation loss decreased (0.471380 --> 0.470038).  Saving model ...
+EarlyStopping counter: 1 out of 20
+Validation loss decreased (0.470038 --> 0.468701).  Saving model ...
+EarlyStopping counter: 1 out of 20
+Validation loss decreased (0.468701 --> 0.467370).  Saving model ...
+EarlyStopping counter: 1 out of 20
+Validation loss decreased (0.467370 --> 0.466044).  Saving model ...
+EarlyStopping counter: 1 out of 20
+Validation loss decreased (0.466044 --> 0.464725).  Saving model ...
+EarlyStopping counter: 1 out of 20
+Validation loss decreased (0.464725 --> 0.463412).  Saving model ...
+EarlyStopping counter: 1 out of 20
+Validation loss decreased (0.463412 --> 0.462105).  Saving model ...
+EarlyStopping counter: 1 out of 20
+Validation loss decreased (0.462105 --> 0.460804).  Saving model ...
+EarlyStopping counter: 1 out of 20
+Validation loss decreased (0.460804 --> 0.459510).  Saving model ...
+EarlyStopping counter: 1 out of 20
+Validation loss decreased (0.459510 --> 0.458223).  Saving model ...
+EarlyStopping counter: 1 out of 20
+Validation loss decreased (0.458223 --> 0.456942).  Saving model ...
+EarlyStopping counter: 1 out of 20
+Validation loss decreased (0.456942 --> 0.455668).  Saving model ...
+EarlyStopping counter: 1 out of 20
+Validation loss decreased (0.455668 --> 0.454403).  Saving model ...
+EarlyStopping counter: 1 out of 20
+Validation loss decreased (0.454403 --> 0.453144).  Saving model ...
+EarlyStopping counter: 1 out of 20
+Validation loss decreased (0.453144 --> 0.451893).  Saving model ...
+EarlyStopping counter: 1 out of 20
+Validation loss decreased (0.451893 --> 0.450649).  Saving model ...
+EarlyStopping counter: 1 out of 20
+Validation loss decreased (0.450649 --> 0.449412).  Saving model ...
+EarlyStopping counter: 1 out of 20
+Validation loss decreased (0.449412 --> 0.448182).  Saving model ...
+EarlyStopping counter: 1 out of 20
+Validation loss decreased (0.448182 --> 0.446959).  Saving model ...
+EarlyStopping counter: 1 out of 20
+Validation loss decreased (0.446959 --> 0.445744).  Saving model ...
+EarlyStopping counter: 1 out of 20
+Validation loss decreased (0.445744 --> 0.444536).  Saving model ...
+EarlyStopping counter: 1 out of 20
+Validation loss decreased (0.444536 --> 0.443337).  Saving model ...
+EarlyStopping counter: 1 out of 20
+Validation loss decreased (0.443337 --> 0.442144).  Saving model ...
+EarlyStopping counter: 1 out of 20
+Validation loss decreased (0.442144 --> 0.440960).  Saving model ...
+EarlyStopping counter: 1 out of 20
+Validation loss decreased (0.440960 --> 0.439783).  Saving model ...
+EarlyStopping counter: 1 out of 20
+Validation loss decreased (0.439783 --> 0.438614).  Saving model ...
+EarlyStopping counter: 1 out of 20
+Validation loss decreased (0.438614 --> 0.437453).  Saving model ...
+EarlyStopping counter: 1 out of 20
+Validation loss decreased (0.437453 --> 0.436300).  Saving model ...
+EarlyStopping counter: 1 out of 20
+Validation loss decreased (0.436300 --> 0.435155).  Saving model ...
+EarlyStopping counter: 1 out of 20
+Validation loss decreased (0.435155 --> 0.434017).  Saving model ...
+EarlyStopping counter: 1 out of 20
+Validation loss decreased (0.434017 --> 0.432887).  Saving model ...
+EarlyStopping counter: 1 out of 20
+Validation loss decreased (0.432887 --> 0.431766).  Saving model ...
+EarlyStopping counter: 1 out of 20
+Validation loss decreased (0.431766 --> 0.430652).  Saving model ...
+EarlyStopping counter: 1 out of 20
+Validation loss decreased (0.430652 --> 0.429545).  Saving model ...
+EarlyStopping counter: 1 out of 20
+Validation loss decreased (0.429545 --> 0.428446).  Saving model ...
+EarlyStopping counter: 1 out of 20
+Validation loss decreased (0.428446 --> 0.427355).  Saving model ...
+EarlyStopping counter: 1 out of 20
+Validation loss decreased (0.427355 --> 0.426271).  Saving model ...
+EarlyStopping counter: 1 out of 20
+Validation loss decreased (0.426271 --> 0.425195).  Saving model ...
+EarlyStopping counter: 1 out of 20
+Validation loss decreased (0.425195 --> 0.424127).  Saving model ...
+EarlyStopping counter: 1 out of 20
+Validation loss decreased (0.424127 --> 0.423067).  Saving model ...
+EarlyStopping counter: 1 out of 20
+Validation loss decreased (0.423067 --> 0.422015).  Saving model ...
+EarlyStopping counter: 1 out of 20
+Validation loss decreased (0.422015 --> 0.420970).  Saving model ...
+EarlyStopping counter: 1 out of 20
+Validation loss decreased (0.420970 --> 0.419932).  Saving model ...
+EarlyStopping counter: 1 out of 20
+Validation loss decreased (0.419932 --> 0.418901).  Saving model ...
+EarlyStopping counter: 1 out of 20
+Validation loss decreased (0.418901 --> 0.417877).  Saving model ...
+EarlyStopping counter: 1 out of 20
+Validation loss decreased (0.417877 --> 0.416862).  Saving model ...
+EarlyStopping counter: 1 out of 20
+Validation loss decreased (0.416862 --> 0.415853).  Saving model ...
+EarlyStopping counter: 1 out of 20
+EarlyStopping counter: 2 out of 20
+Validation loss decreased (0.415853 --> 0.414359).  Saving model ...
+EarlyStopping counter: 1 out of 20
+EarlyStopping counter: 2 out of 20
+Validation loss decreased (0.414359 --> 0.412876).  Saving model ...
+EarlyStopping counter: 1 out of 20
+EarlyStopping counter: 2 out of 20
+Validation loss decreased (0.412876 --> 0.411407).  Saving model ...
+EarlyStopping counter: 1 out of 20
+EarlyStopping counter: 2 out of 20
+Validation loss decreased (0.411407 --> 0.409955).  Saving model ...
+EarlyStopping counter: 1 out of 20
+EarlyStopping counter: 2 out of 20
+Validation loss decreased (0.409955 --> 0.408518).  Saving model ...
+EarlyStopping counter: 1 out of 20
+EarlyStopping counter: 2 out of 20
+Validation loss decreased (0.408518 --> 0.407100).  Saving model ...
+EarlyStopping counter: 1 out of 20
+EarlyStopping counter: 2 out of 20
+Validation loss decreased (0.407100 --> 0.405696).  Saving model ...
+EarlyStopping counter: 1 out of 20
+EarlyStopping counter: 2 out of 20
+Validation loss decreased (0.405696 --> 0.404309).  Saving model ...
+EarlyStopping counter: 1 out of 20
+EarlyStopping counter: 2 out of 20
+Validation loss decreased (0.404309 --> 0.402938).  Saving model ...
+EarlyStopping counter: 1 out of 20
+EarlyStopping counter: 2 out of 20
+Validation loss decreased (0.402938 --> 0.401581).  Saving model ...
+EarlyStopping counter: 1 out of 20
+EarlyStopping counter: 2 out of 20
+Validation loss decreased (0.401581 --> 0.400241).  Saving model ...
+EarlyStopping counter: 1 out of 20
+EarlyStopping counter: 2 out of 20
+Validation loss decreased (0.400241 --> 0.398912).  Saving model ...
+EarlyStopping counter: 1 out of 20
+EarlyStopping counter: 2 out of 20
+Validation loss decreased (0.398912 --> 0.397598).  Saving model ...
+EarlyStopping counter: 1 out of 20
+EarlyStopping counter: 2 out of 20
+Validation loss decreased (0.397598 --> 0.396298).  Saving model ...
+EarlyStopping counter: 1 out of 20
+EarlyStopping counter: 2 out of 20
+Validation loss decreased (0.396298 --> 0.395012).  Saving model ...
+EarlyStopping counter: 1 out of 20
+EarlyStopping counter: 2 out of 20
+Validation loss decreased (0.395012 --> 0.393740).  Saving model ...
+EarlyStopping counter: 1 out of 20
+EarlyStopping counter: 2 out of 20
+Validation loss decreased (0.393740 --> 0.392481).  Saving model ...
+EarlyStopping counter: 1 out of 20
+EarlyStopping counter: 2 out of 20
+Validation loss decreased (0.392481 --> 0.391237).  Saving model ...
+EarlyStopping counter: 1 out of 20
+EarlyStopping counter: 2 out of 20
+Validation loss decreased (0.391237 --> 0.390005).  Saving model ...
+EarlyStopping counter: 1 out of 20
+EarlyStopping counter: 2 out of 20
+Validation loss decreased (0.390005 --> 0.388787).  Saving model ...
+EarlyStopping counter: 1 out of 20
+EarlyStopping counter: 2 out of 20
+Validation loss decreased (0.388787 --> 0.387582).  Saving model ...
+EarlyStopping counter: 1 out of 20
+EarlyStopping counter: 2 out of 20
+Validation loss decreased (0.387582 --> 0.386390).  Saving model ...
+EarlyStopping counter: 1 out of 20
+EarlyStopping counter: 2 out of 20
+Validation loss decreased (0.386390 --> 0.385212).  Saving model ...
+EarlyStopping counter: 1 out of 20
+EarlyStopping counter: 2 out of 20
+Validation loss decreased (0.385212 --> 0.384046).  Saving model ...
+EarlyStopping counter: 1 out of 20
+EarlyStopping counter: 2 out of 20
+Validation loss decreased (0.384046 --> 0.382893).  Saving model ...
+EarlyStopping counter: 1 out of 20
+EarlyStopping counter: 2 out of 20
+Validation loss decreased (0.382893 --> 0.381752).  Saving model ...
+EarlyStopping counter: 1 out of 20
+EarlyStopping counter: 2 out of 20
+Validation loss decreased (0.381752 --> 0.380624).  Saving model ...
+EarlyStopping counter: 1 out of 20
+EarlyStopping counter: 2 out of 20
+Validation loss decreased (0.380624 --> 0.379507).  Saving model ...
+EarlyStopping counter: 1 out of 20
+EarlyStopping counter: 2 out of 20
+Validation loss decreased (0.379507 --> 0.378403).  Saving model ...
+EarlyStopping counter: 1 out of 20
+EarlyStopping counter: 2 out of 20
+Validation loss decreased (0.378403 --> 0.377311).  Saving model ...
+EarlyStopping counter: 1 out of 20
+EarlyStopping counter: 2 out of 20
+Validation loss decreased (0.377311 --> 0.376231).  Saving model ...
+EarlyStopping counter: 1 out of 20
+EarlyStopping counter: 2 out of 20
+Validation loss decreased (0.376231 --> 0.375163).  Saving model ...
+EarlyStopping counter: 1 out of 20
+EarlyStopping counter: 2 out of 20
+Validation loss decreased (0.375163 --> 0.374107).  Saving model ...
+EarlyStopping counter: 1 out of 20
+EarlyStopping counter: 2 out of 20
+Validation loss decreased (0.374107 --> 0.373063).  Saving model ...
+EarlyStopping counter: 1 out of 20
+EarlyStopping counter: 2 out of 20
+Validation loss decreased (0.373063 --> 0.372030).  Saving model ...
+EarlyStopping counter: 1 out of 20
+EarlyStopping counter: 2 out of 20
+Validation loss decreased (0.372030 --> 0.371011).  Saving model ...
+EarlyStopping counter: 1 out of 20
+EarlyStopping counter: 2 out of 20
+Validation loss decreased (0.371011 --> 0.370002).  Saving model ...
+EarlyStopping counter: 1 out of 20
+EarlyStopping counter: 2 out of 20
+EarlyStopping counter: 3 out of 20
+Validation loss decreased (0.370002 --> 0.368680).  Saving model ...
+EarlyStopping counter: 1 out of 20
+EarlyStopping counter: 2 out of 20
+EarlyStopping counter: 3 out of 20
+Validation loss decreased (0.368680 --> 0.367378).  Saving model ...
+EarlyStopping counter: 1 out of 20
+EarlyStopping counter: 2 out of 20
+EarlyStopping counter: 3 out of 20
+Validation loss decreased (0.367378 --> 0.366094).  Saving model ...
+EarlyStopping counter: 1 out of 20
+EarlyStopping counter: 2 out of 20
+EarlyStopping counter: 3 out of 20
+Validation loss decreased (0.366094 --> 0.364828).  Saving model ...
+EarlyStopping counter: 1 out of 20
+EarlyStopping counter: 2 out of 20
+EarlyStopping counter: 3 out of 20
+Validation loss decreased (0.364828 --> 0.363576).  Saving model ...
+EarlyStopping counter: 1 out of 20
+EarlyStopping counter: 2 out of 20
+EarlyStopping counter: 3 out of 20
+Validation loss decreased (0.363576 --> 0.362345).  Saving model ...
+EarlyStopping counter: 1 out of 20
+EarlyStopping counter: 2 out of 20
+EarlyStopping counter: 3 out of 20
+Validation loss decreased (0.362345 --> 0.361132).  Saving model ...
+EarlyStopping counter: 1 out of 20
+EarlyStopping counter: 2 out of 20
+EarlyStopping counter: 3 out of 20
+Validation loss decreased (0.361132 --> 0.359936).  Saving model ...
+EarlyStopping counter: 1 out of 20
+EarlyStopping counter: 2 out of 20
+EarlyStopping counter: 3 out of 20
+Validation loss decreased (0.359936 --> 0.358759).  Saving model ...
+EarlyStopping counter: 1 out of 20
+EarlyStopping counter: 2 out of 20
+EarlyStopping counter: 3 out of 20
+Validation loss decreased (0.358759 --> 0.357596).  Saving model ...
+EarlyStopping counter: 1 out of 20
+EarlyStopping counter: 2 out of 20
+EarlyStopping counter: 3 out of 20
+Validation loss decreased (0.357596 --> 0.356452).  Saving model ...
+EarlyStopping counter: 1 out of 20
+EarlyStopping counter: 2 out of 20
+EarlyStopping counter: 3 out of 20
+Validation loss decreased (0.356452 --> 0.355328).  Saving model ...
+EarlyStopping counter: 1 out of 20
+EarlyStopping counter: 2 out of 20
+EarlyStopping counter: 3 out of 20
+Validation loss decreased (0.355328 --> 0.354220).  Saving model ...
+EarlyStopping counter: 1 out of 20
+EarlyStopping counter: 2 out of 20
+EarlyStopping counter: 3 out of 20
+Validation loss decreased (0.354220 --> 0.353129).  Saving model ...
+EarlyStopping counter: 1 out of 20
+EarlyStopping counter: 2 out of 20
+EarlyStopping counter: 3 out of 20
+Validation loss decreased (0.353129 --> 0.352044).  Saving model ...
+EarlyStopping counter: 1 out of 20
+EarlyStopping counter: 2 out of 20
+EarlyStopping counter: 3 out of 20
+Validation loss decreased (0.352044 --> 0.350976).  Saving model ...
+EarlyStopping counter: 1 out of 20
+EarlyStopping counter: 2 out of 20
+EarlyStopping counter: 3 out of 20
+Validation loss decreased (0.350976 --> 0.349923).  Saving model ...
+EarlyStopping counter: 1 out of 20
+EarlyStopping counter: 2 out of 20
+EarlyStopping counter: 3 out of 20
+Validation loss decreased (0.349923 --> 0.348886).  Saving model ...
+EarlyStopping counter: 1 out of 20
+EarlyStopping counter: 2 out of 20
+EarlyStopping counter: 3 out of 20
+Validation loss decreased (0.348886 --> 0.347864).  Saving model ...
+EarlyStopping counter: 1 out of 20
+EarlyStopping counter: 2 out of 20
+EarlyStopping counter: 3 out of 20
+Validation loss decreased (0.347864 --> 0.346859).  Saving model ...
+EarlyStopping counter: 1 out of 20
+EarlyStopping counter: 2 out of 20
+EarlyStopping counter: 3 out of 20
+EarlyStopping counter: 4 out of 20
+Validation loss decreased (0.346859 --> 0.345621).  Saving model ...
+EarlyStopping counter: 1 out of 20
+EarlyStopping counter: 2 out of 20
+EarlyStopping counter: 3 out of 20
+EarlyStopping counter: 4 out of 20
+Validation loss decreased (0.345621 --> 0.344408).  Saving model ...
+EarlyStopping counter: 1 out of 20
+EarlyStopping counter: 2 out of 20
+EarlyStopping counter: 3 out of 20
+EarlyStopping counter: 4 out of 20
+Validation loss decreased (0.344408 --> 0.343218).  Saving model ...
+EarlyStopping counter: 1 out of 20
+EarlyStopping counter: 2 out of 20
+EarlyStopping counter: 3 out of 20
+EarlyStopping counter: 4 out of 20
+Validation loss decreased (0.343218 --> 0.342048).  Saving model ...
+EarlyStopping counter: 1 out of 20
+EarlyStopping counter: 2 out of 20
+EarlyStopping counter: 3 out of 20
+EarlyStopping counter: 4 out of 20
+Validation loss decreased (0.342048 --> 0.340905).  Saving model ...
+EarlyStopping counter: 1 out of 20
+EarlyStopping counter: 2 out of 20
+EarlyStopping counter: 3 out of 20
+EarlyStopping counter: 4 out of 20
+Validation loss decreased (0.340905 --> 0.339778).  Saving model ...
+EarlyStopping counter: 1 out of 20
+EarlyStopping counter: 2 out of 20
+EarlyStopping counter: 3 out of 20
+EarlyStopping counter: 4 out of 20
+Validation loss decreased (0.339778 --> 0.338679).  Saving model ...
+EarlyStopping counter: 1 out of 20
+EarlyStopping counter: 2 out of 20
+EarlyStopping counter: 3 out of 20
+EarlyStopping counter: 4 out of 20
+Validation loss decreased (0.338679 --> 0.337595).  Saving model ...
+EarlyStopping counter: 1 out of 20
+EarlyStopping counter: 2 out of 20
+EarlyStopping counter: 3 out of 20
+EarlyStopping counter: 4 out of 20
+Validation loss decreased (0.337595 --> 0.336538).  Saving model ...
+EarlyStopping counter: 1 out of 20
+EarlyStopping counter: 2 out of 20
+EarlyStopping counter: 3 out of 20
+EarlyStopping counter: 4 out of 20
+Validation loss decreased (0.336538 --> 0.335494).  Saving model ...
+EarlyStopping counter: 1 out of 20
+EarlyStopping counter: 2 out of 20
+EarlyStopping counter: 3 out of 20
+EarlyStopping counter: 4 out of 20
+Validation loss decreased (0.335494 --> 0.334467).  Saving model ...
+EarlyStopping counter: 1 out of 20
+EarlyStopping counter: 2 out of 20
+EarlyStopping counter: 3 out of 20
+EarlyStopping counter: 4 out of 20
+Validation loss decreased (0.334467 --> 0.333457).  Saving model ...
+EarlyStopping counter: 1 out of 20
+EarlyStopping counter: 2 out of 20
+EarlyStopping counter: 3 out of 20
+EarlyStopping counter: 4 out of 20
+EarlyStopping counter: 5 out of 20
+Validation loss decreased (0.333457 --> 0.332270).  Saving model ...
+EarlyStopping counter: 1 out of 20
+EarlyStopping counter: 2 out of 20
+EarlyStopping counter: 3 out of 20
+EarlyStopping counter: 4 out of 20
+EarlyStopping counter: 5 out of 20
+Validation loss decreased (0.332270 --> 0.331109).  Saving model ...
+EarlyStopping counter: 1 out of 20
+EarlyStopping counter: 2 out of 20
+EarlyStopping counter: 3 out of 20
+EarlyStopping counter: 4 out of 20
+EarlyStopping counter: 5 out of 20
+Validation loss decreased (0.331109 --> 0.329974).  Saving model ...
+EarlyStopping counter: 1 out of 20
+EarlyStopping counter: 2 out of 20
+EarlyStopping counter: 3 out of 20
+EarlyStopping counter: 4 out of 20
+EarlyStopping counter: 5 out of 20
+Validation loss decreased (0.329974 --> 0.328865).  Saving model ...
+EarlyStopping counter: 1 out of 20
+EarlyStopping counter: 2 out of 20
+EarlyStopping counter: 3 out of 20
+EarlyStopping counter: 4 out of 20
+EarlyStopping counter: 5 out of 20
+Validation loss decreased (0.328865 --> 0.327781).  Saving model ...
+EarlyStopping counter: 1 out of 20
+EarlyStopping counter: 2 out of 20
+EarlyStopping counter: 3 out of 20
+EarlyStopping counter: 4 out of 20
+EarlyStopping counter: 5 out of 20
+Validation loss decreased (0.327781 --> 0.326723).  Saving model ...
+EarlyStopping counter: 1 out of 20
+EarlyStopping counter: 2 out of 20
+EarlyStopping counter: 3 out of 20
+EarlyStopping counter: 4 out of 20
+EarlyStopping counter: 5 out of 20
+Validation loss decreased (0.326723 --> 0.325689).  Saving model ...
+EarlyStopping counter: 1 out of 20
+EarlyStopping counter: 2 out of 20
+EarlyStopping counter: 3 out of 20
+EarlyStopping counter: 4 out of 20
+EarlyStopping counter: 5 out of 20
+Validation loss decreased (0.325689 --> 0.324679).  Saving model ...
+EarlyStopping counter: 1 out of 20
+EarlyStopping counter: 2 out of 20
+EarlyStopping counter: 3 out of 20
+EarlyStopping counter: 4 out of 20
+EarlyStopping counter: 5 out of 20
+EarlyStopping counter: 6 out of 20
+Validation loss decreased (0.324679 --> 0.323530).  Saving model ...
+EarlyStopping counter: 1 out of 20
+EarlyStopping counter: 2 out of 20
+EarlyStopping counter: 3 out of 20
+EarlyStopping counter: 4 out of 20
+EarlyStopping counter: 5 out of 20
+EarlyStopping counter: 6 out of 20
+Validation loss decreased (0.323530 --> 0.322417).  Saving model ...
+EarlyStopping counter: 1 out of 20
+EarlyStopping counter: 2 out of 20
+EarlyStopping counter: 3 out of 20
+EarlyStopping counter: 4 out of 20
+EarlyStopping counter: 5 out of 20
+EarlyStopping counter: 6 out of 20
+Validation loss decreased (0.322417 --> 0.321334).  Saving model ...
+EarlyStopping counter: 1 out of 20
+EarlyStopping counter: 2 out of 20
+EarlyStopping counter: 3 out of 20
+EarlyStopping counter: 4 out of 20
+EarlyStopping counter: 5 out of 20
+EarlyStopping counter: 6 out of 20
+Validation loss decreased (0.321334 --> 0.320277).  Saving model ...
+EarlyStopping counter: 1 out of 20
+EarlyStopping counter: 2 out of 20
+EarlyStopping counter: 3 out of 20
+EarlyStopping counter: 4 out of 20
+EarlyStopping counter: 5 out of 20
+EarlyStopping counter: 6 out of 20
+Validation loss decreased (0.320277 --> 0.319248).  Saving model ...
+EarlyStopping counter: 1 out of 20
+EarlyStopping counter: 2 out of 20
+EarlyStopping counter: 3 out of 20
+EarlyStopping counter: 4 out of 20
+EarlyStopping counter: 5 out of 20
+EarlyStopping counter: 6 out of 20
+EarlyStopping counter: 7 out of 20
+Validation loss decreased (0.319248 --> 0.318108).  Saving model ...
+EarlyStopping counter: 1 out of 20
+EarlyStopping counter: 2 out of 20
+EarlyStopping counter: 3 out of 20
+EarlyStopping counter: 4 out of 20
+EarlyStopping counter: 5 out of 20
+EarlyStopping counter: 6 out of 20
+EarlyStopping counter: 7 out of 20
+Validation loss decreased (0.318108 --> 0.316998).  Saving model ...
+EarlyStopping counter: 1 out of 20
+EarlyStopping counter: 2 out of 20
+EarlyStopping counter: 3 out of 20
+EarlyStopping counter: 4 out of 20
+EarlyStopping counter: 5 out of 20
+EarlyStopping counter: 6 out of 20
+EarlyStopping counter: 7 out of 20
+Validation loss decreased (0.316998 --> 0.315928).  Saving model ...
+EarlyStopping counter: 1 out of 20
+EarlyStopping counter: 2 out of 20
+EarlyStopping counter: 3 out of 20
+EarlyStopping counter: 4 out of 20
+EarlyStopping counter: 5 out of 20
+EarlyStopping counter: 6 out of 20
+EarlyStopping counter: 7 out of 20
+Validation loss decreased (0.315928 --> 0.314892).  Saving model ...
+EarlyStopping counter: 1 out of 20
+EarlyStopping counter: 2 out of 20
+EarlyStopping counter: 3 out of 20
+EarlyStopping counter: 4 out of 20
+EarlyStopping counter: 5 out of 20
+EarlyStopping counter: 6 out of 20
+EarlyStopping counter: 7 out of 20
+Validation loss decreased (0.314892 --> 0.313883).  Saving model ...
+EarlyStopping counter: 1 out of 20
+EarlyStopping counter: 2 out of 20
+EarlyStopping counter: 3 out of 20
+EarlyStopping counter: 4 out of 20
+EarlyStopping counter: 5 out of 20
+EarlyStopping counter: 6 out of 20
+EarlyStopping counter: 7 out of 20
+EarlyStopping counter: 8 out of 20
+Validation loss decreased (0.313883 --> 0.312791).  Saving model ...
+EarlyStopping counter: 1 out of 20
+EarlyStopping counter: 2 out of 20
+EarlyStopping counter: 3 out of 20
+EarlyStopping counter: 4 out of 20
+EarlyStopping counter: 5 out of 20
+EarlyStopping counter: 6 out of 20
+EarlyStopping counter: 7 out of 20
+EarlyStopping counter: 8 out of 20
+Validation loss decreased (0.312791 --> 0.311723).  Saving model ...
+EarlyStopping counter: 1 out of 20
+EarlyStopping counter: 2 out of 20
+EarlyStopping counter: 3 out of 20
+EarlyStopping counter: 4 out of 20
+EarlyStopping counter: 5 out of 20
+EarlyStopping counter: 6 out of 20
+EarlyStopping counter: 7 out of 20
+EarlyStopping counter: 8 out of 20
+Validation loss decreased (0.311723 --> 0.310685).  Saving model ...
+EarlyStopping counter: 1 out of 20
+EarlyStopping counter: 2 out of 20
+EarlyStopping counter: 3 out of 20
+EarlyStopping counter: 4 out of 20
+EarlyStopping counter: 5 out of 20
+EarlyStopping counter: 6 out of 20
+EarlyStopping counter: 7 out of 20
+EarlyStopping counter: 8 out of 20
+Validation loss decreased (0.310685 --> 0.309681).  Saving model ...
+EarlyStopping counter: 1 out of 20
+EarlyStopping counter: 2 out of 20
+EarlyStopping counter: 3 out of 20
+EarlyStopping counter: 4 out of 20
+EarlyStopping counter: 5 out of 20
+EarlyStopping counter: 6 out of 20
+EarlyStopping counter: 7 out of 20
+EarlyStopping counter: 8 out of 20
+EarlyStopping counter: 9 out of 20
+Validation loss decreased (0.309681 --> 0.308631).  Saving model ...
+EarlyStopping counter: 1 out of 20
+EarlyStopping counter: 2 out of 20
+EarlyStopping counter: 3 out of 20
+EarlyStopping counter: 4 out of 20
+EarlyStopping counter: 5 out of 20
+EarlyStopping counter: 6 out of 20
+EarlyStopping counter: 7 out of 20
+EarlyStopping counter: 8 out of 20
+EarlyStopping counter: 9 out of 20
+EarlyStopping counter: 10 out of 20
+Validation loss decreased (0.308631 --> 0.307611).  Saving model ...
+EarlyStopping counter: 1 out of 20
+EarlyStopping counter: 2 out of 20
+EarlyStopping counter: 3 out of 20
+EarlyStopping counter: 4 out of 20
+EarlyStopping counter: 5 out of 20
+EarlyStopping counter: 6 out of 20
+EarlyStopping counter: 7 out of 20
+EarlyStopping counter: 8 out of 20
+EarlyStopping counter: 9 out of 20
+EarlyStopping counter: 10 out of 20
+Validation loss decreased (0.307611 --> 0.306551).  Saving model ...
+EarlyStopping counter: 1 out of 20
+EarlyStopping counter: 2 out of 20
+EarlyStopping counter: 3 out of 20
+EarlyStopping counter: 4 out of 20
+EarlyStopping counter: 5 out of 20
+EarlyStopping counter: 6 out of 20
+EarlyStopping counter: 7 out of 20
+EarlyStopping counter: 8 out of 20
+EarlyStopping counter: 9 out of 20
+EarlyStopping counter: 10 out of 20
+Validation loss decreased (0.306551 --> 0.305546).  Saving model ...
+EarlyStopping counter: 1 out of 20
+EarlyStopping counter: 2 out of 20
+EarlyStopping counter: 3 out of 20
+EarlyStopping counter: 4 out of 20
+EarlyStopping counter: 5 out of 20
+EarlyStopping counter: 6 out of 20
+EarlyStopping counter: 7 out of 20
+EarlyStopping counter: 8 out of 20
+EarlyStopping counter: 9 out of 20
+EarlyStopping counter: 10 out of 20
+EarlyStopping counter: 11 out of 20
+Validation loss decreased (0.305546 --> 0.304507).  Saving model ...
+EarlyStopping counter: 1 out of 20
+EarlyStopping counter: 2 out of 20
+EarlyStopping counter: 3 out of 20
+EarlyStopping counter: 4 out of 20
+EarlyStopping counter: 5 out of 20
+EarlyStopping counter: 6 out of 20
+EarlyStopping counter: 7 out of 20
+EarlyStopping counter: 8 out of 20
+EarlyStopping counter: 9 out of 20
+EarlyStopping counter: 10 out of 20
+EarlyStopping counter: 11 out of 20
+EarlyStopping counter: 12 out of 20
+Validation loss decreased (0.304507 --> 0.303437).  Saving model ...
+EarlyStopping counter: 1 out of 20
+EarlyStopping counter: 2 out of 20
+EarlyStopping counter: 3 out of 20
+EarlyStopping counter: 4 out of 20
+EarlyStopping counter: 5 out of 20
+EarlyStopping counter: 6 out of 20
+EarlyStopping counter: 7 out of 20
+EarlyStopping counter: 8 out of 20
+EarlyStopping counter: 9 out of 20
+EarlyStopping counter: 10 out of 20
+EarlyStopping counter: 11 out of 20
+EarlyStopping counter: 12 out of 20
+EarlyStopping counter: 13 out of 20
+Validation loss decreased (0.303437 --> 0.302390).  Saving model ...
+EarlyStopping counter: 1 out of 20
+EarlyStopping counter: 2 out of 20
+EarlyStopping counter: 3 out of 20
+EarlyStopping counter: 4 out of 20
+EarlyStopping counter: 5 out of 20
+EarlyStopping counter: 6 out of 20
+EarlyStopping counter: 7 out of 20
+EarlyStopping counter: 8 out of 20
+EarlyStopping counter: 9 out of 20
+EarlyStopping counter: 10 out of 20
+EarlyStopping counter: 11 out of 20
+EarlyStopping counter: 12 out of 20
+EarlyStopping counter: 13 out of 20
+Validation loss decreased (0.302390 --> 0.301338).  Saving model ...
+EarlyStopping counter: 1 out of 20
+EarlyStopping counter: 2 out of 20
+EarlyStopping counter: 3 out of 20
+EarlyStopping counter: 4 out of 20
+EarlyStopping counter: 5 out of 20
+EarlyStopping counter: 6 out of 20
+EarlyStopping counter: 7 out of 20
+EarlyStopping counter: 8 out of 20
+EarlyStopping counter: 9 out of 20
+EarlyStopping counter: 10 out of 20
+EarlyStopping counter: 11 out of 20
+EarlyStopping counter: 12 out of 20
+EarlyStopping counter: 13 out of 20
+EarlyStopping counter: 14 out of 20
+Validation loss decreased (0.301338 --> 0.300279).  Saving model ...
+EarlyStopping counter: 1 out of 20
+EarlyStopping counter: 2 out of 20
+EarlyStopping counter: 3 out of 20
+EarlyStopping counter: 4 out of 20
+EarlyStopping counter: 5 out of 20
+EarlyStopping counter: 6 out of 20
+EarlyStopping counter: 7 out of 20
+EarlyStopping counter: 8 out of 20
+EarlyStopping counter: 9 out of 20
+EarlyStopping counter: 10 out of 20
+EarlyStopping counter: 11 out of 20
+EarlyStopping counter: 12 out of 20
+EarlyStopping counter: 13 out of 20
+EarlyStopping counter: 14 out of 20
+EarlyStopping counter: 15 out of 20
+Validation loss decreased (0.300279 --> 0.299222).  Saving model ...
+EarlyStopping counter: 1 out of 20
+EarlyStopping counter: 2 out of 20
+EarlyStopping counter: 3 out of 20
+EarlyStopping counter: 4 out of 20
+EarlyStopping counter: 5 out of 20
+EarlyStopping counter: 6 out of 20
+EarlyStopping counter: 7 out of 20
+EarlyStopping counter: 8 out of 20
+EarlyStopping counter: 9 out of 20
+EarlyStopping counter: 10 out of 20
+EarlyStopping counter: 11 out of 20
+EarlyStopping counter: 12 out of 20
+EarlyStopping counter: 13 out of 20
+EarlyStopping counter: 14 out of 20
+EarlyStopping counter: 15 out of 20
+EarlyStopping counter: 16 out of 20
+Validation loss decreased (0.299222 --> 0.298184).  Saving model ...
+EarlyStopping counter: 1 out of 20
+EarlyStopping counter: 2 out of 20
+EarlyStopping counter: 3 out of 20
+EarlyStopping counter: 4 out of 20
+EarlyStopping counter: 5 out of 20
+EarlyStopping counter: 6 out of 20
+EarlyStopping counter: 7 out of 20
+EarlyStopping counter: 8 out of 20
+EarlyStopping counter: 9 out of 20
+EarlyStopping counter: 10 out of 20
+EarlyStopping counter: 11 out of 20
+EarlyStopping counter: 12 out of 20
+EarlyStopping counter: 13 out of 20
+EarlyStopping counter: 14 out of 20
+EarlyStopping counter: 15 out of 20
+EarlyStopping counter: 16 out of 20
+EarlyStopping counter: 17 out of 20
+Validation loss decreased (0.298184 --> 0.297176).  Saving model ...
+EarlyStopping counter: 1 out of 20
+EarlyStopping counter: 2 out of 20
+EarlyStopping counter: 3 out of 20
+EarlyStopping counter: 4 out of 20
+EarlyStopping counter: 5 out of 20
+EarlyStopping counter: 6 out of 20
+EarlyStopping counter: 7 out of 20
+EarlyStopping counter: 8 out of 20
+EarlyStopping counter: 9 out of 20
+EarlyStopping counter: 10 out of 20
+EarlyStopping counter: 11 out of 20
+EarlyStopping counter: 12 out of 20
+EarlyStopping counter: 13 out of 20
+EarlyStopping counter: 14 out of 20
+EarlyStopping counter: 15 out of 20
+EarlyStopping counter: 16 out of 20
+EarlyStopping counter: 17 out of 20
+EarlyStopping counter: 18 out of 20
+EarlyStopping counter: 19 out of 20
+EarlyStopping counter: 20 out of 20
+Early stopping
+0.7104172110557556 0.004218362737447023
+0.5909922122955322 0.25166985392570496
+Accuracy: 0.8
+F1 Score: 0.8941176470588236
+Recall: 0.8837209302325582
+Confusion Matrix:
+    0  1
+0  38  5
+1   4  8
+AUROC: 0.7751937984496124

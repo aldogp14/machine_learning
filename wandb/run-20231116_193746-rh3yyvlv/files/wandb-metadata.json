@@ -1,0 +1,45 @@
+{
+    "os": "Windows-10-10.0.22621-SP0",
+    "python": "3.7.9",
+    "heartbeatAt": "2023-11-17T01:37:47.754522",
+    "startedAt": "2023-11-17T01:37:46.658103",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "c:/Users/COMPUTOCKS/Desktop/semestre_5/machine_learning/FFNN.py",
+    "codePathLocal": "FFNN.py",
+    "codePath": "FFNN.py",
+    "git": {
+        "remote": "https://github.com/aldogp14/machine_learning.git",
+        "commit": "3df8d108d0692962e2e67716b304738351eb5709"
+    },
+    "email": "aldogp@lcg.unam.mx",
+    "root": "C:/Users/COMPUTOCKS/Desktop/semestre_5/machine_learning",
+    "host": "DESKTOP-J864HIV",
+    "username": "COMPUTOCKS",
+    "executable": "C:\\Users\\COMPUTOCKS\\AppData\\Local\\Programs\\Python\\Python37\\python.exe",
+    "cpu_count": 4,
+    "cpu_count_logical": 8,
+    "cpu_freq": {
+        "current": 1508.0,
+        "min": 0.0,
+        "max": 2112.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 1508.0,
+            "min": 0.0,
+            "max": 2112.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 237.68847274780273,
+            "used": 102.76217651367188
+        }
+    },
+    "memory": {
+        "total": 7.837867736816406
+    }
+}

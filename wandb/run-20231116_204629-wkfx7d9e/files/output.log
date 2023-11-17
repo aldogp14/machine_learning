@@ -1,0 +1,13 @@
+C:\Users\COMPUTOCKS\AppData\Local\Programs\Python\Python37\lib\site-packages\torch\nn\functional.py:1967: UserWarning: nn.functional.sigmoid is deprecated. Use torch.sigmoid instead.
+  warnings.warn("nn.functional.sigmoid is deprecated. Use torch.sigmoid instead.")
+Early stopping
+0.5913386940956116 0.25251731276512146
+0.5912455320358276 0.5787897109985352
+Accuracy: 0.8545454545454545
+F1 Score: 0.8775510204081634
+Recall: 1.0
+Confusion Matrix:
+    0  1
+0  43  0
+1  12  0
+AUROC: 0.5

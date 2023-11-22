@@ -46,28 +46,54 @@ y_test = torch.LongTensor(y_test)[:,0]
 n_examples_train = len(y_train)
 n_examples_test = len(y_test)
 
+
+n_features = 162
+
 # hyperparameters
 epochs = 1000
 learning_rate = 0.0001
 batch_size = 10
-n_features = 162
 patience = 5
 weight_decay_opt = 0.025
 delta_es = 0.001
 
-# weight and biases run
-# start a new wandb run to track the script
-wandb.init(
-    project="EstrogenReceptor_FeedForwardNN", 
-    config={
-        'epochs': epochs,
-        'batch_size': batch_size,
-        'learning_rate': learning_rate,
-        'weight_decay': weight_decay_opt,        
-        'patience': patience, 
-        'delta_earlyStopping': delta_es,
-        'number_features': n_features,
-    })
+# Define sweep config
+sweep_configuration = {
+    'method': 'random',
+    'name': 'EstrogenReceptor_FeedForwardNN',
+    'metric': {
+        'goal': 'minimize', 
+        'name': 'loss_train'
+        },
+    # hyperparameters
+    'parameters': {
+        'epochs': {'value': 2000},
+        'batch_size': {
+            'distribution': 'uniform',
+            'max': 162, 'min': 5
+            },
+        'learning_rate': {
+            'distribution': 'uniform',
+            'max': 0.1, 'min': 0.00005
+            },
+        'patience': {
+            'distribution': 'uniform',
+            'max': 25, 'min': 3
+            },
+        'weight_decay_opt': {
+            'distribution': 'uniform',
+            'max': 0.5, 'min': 0.01
+            },
+        'delta_es': {
+            'distribution': 'uniform',
+            'max': 0.1, 'min': 0.0001
+            }
+        },
+    }
+
+# Intiliaze the sweep
+sweep_id = wandb.sweep(sweep=sweep_configuration, project='EstrogenReceptor_FeedForwardNN')
+
     
 # create the Neural Network, it is a FeedForward
 class Network(nn.Module):
@@ -83,7 +109,7 @@ class Network(nn.Module):
     def forward(self, x):
         x = F.relu(self.fc1(x))
         x = F.relu(self.fc2(x))
-        x = F.sigmoid(self.out(x))
+        x = torch.sigmoid(self.out(x))
         return x
     
 # set the network    
@@ -157,33 +183,49 @@ losses_train = []
 losses_val = []
 
 # TRAINING THE MODEL AND VALIDATION
-for epoch in range(epochs):
-    get_batches(n_examples_train)
+def train():
+    # weight and biases run
+    # start a new wandb run to track the script
+    wandb.init(
+        project='EstrogenReceptor_FeedForwardNN', 
+        config={
+            'epochs': epochs,
+            'batch_size': batch_size,
+            'learning_rate': learning_rate,
+            'weight_decay': weight_decay_opt,        
+            'patience': patience, 
+            'delta_earlyStopping': delta_es,
+        })
+    
+    for epoch in range(epochs):
+        get_batches(n_examples_train)
 
-    # VALIDATE THE MODEL
-    y_pred_val = network.forward(X_val)
-    # measure the loss/error
-    loss_val = loss_criterion(y_pred_val, torch.unsqueeze(y_val, 1).float())
-    #keep track of the losses
-    losses_val.append(loss_val.detach().numpy())
-    early_stopping(np.average(losses_val), network)
+        # VALIDATE THE MODEL
+        y_pred_val = network.forward(X_val)
+        # measure the loss/error
+        loss_val = loss_criterion(y_pred_val, torch.unsqueeze(y_val, 1).float())
+        #keep track of the losses
+        losses_val.append(loss_val.detach().numpy())
+        early_stopping(np.average(losses_val), network)
 
-    # Log the metrics to wandb
-    wandb.log({'epoch':epoch, 'loss_train': losses_train[-1], 'loss_validation': loss_val})
+        # Log the metrics to wandb
+        wandb.log({'loss_train': losses_train[-1], 'loss_validation': loss_val})
 
-    # check if it is needed to early stop
-    if early_stopping.early_stop:
-        print("Early stopping")
-        break
+        # check if it is needed to early stop
+        if early_stopping.early_stop:
+            print('Early stopping')
+            break
+
+train()
 
 print(losses_train[0].item(), losses_train[-1].item())
 print(losses_val[0].item(), losses_val[-1].item())
 
+wandb.agent(sweep_id, train, count=5)
+
+'''
 # test the network
 get_batches(n_examples_test, 0)
-
-# get the accuracy and print it
-print(f'Accuracy: {correct/len(y_test)}'), losses_val[-1].item()
 
 # calculate and print the F1 score
 f1 = f1_score(y_test, y_pred_test)
@@ -191,7 +233,7 @@ print('F1 Score:', f1)
 
 # Calculate and print the Recall
 recall = recall_score(y_test, y_pred_test)
-print("Recall:", recall)
+print('Recall:', recall)
 
 # get the confusion matrix and print it 
 conf_matrix = confusion_matrix(y_test, y_pred_test, labels=[1,0])
@@ -200,10 +242,10 @@ print(f'Confusion Matrix:\n{conf_matrix}')
 
 # Plot the confusion matrix
 plt.figure(figsize=(6, 6))
-sns.heatmap(conf_matrix, annot=True, fmt="d", cmap="Blues", cbar=False,
+sns.heatmap(conf_matrix, annot=True, fmt='d', cmap='Blues', cbar=False,
             xticklabels=np.unique(y_test),
             yticklabels=np.unique(y_test),
-            annot_kws={"size": 20})
+            annot_kws={'size': 20})
 plt.title('Confusion Matrix')
 plt.xlabel('Predicted')
 plt.ylabel('True')
@@ -224,5 +266,6 @@ plt.ylim([0.0, 1.05])
 plt.xlabel('False Positive Rate')
 plt.ylabel('True Positive Rate')
 plt.title('Receiver Operating Characteristic (ROC) Curve')
-plt.legend(loc="lower right")
+plt.legend(loc='lower right')
 plt.show()
+'''

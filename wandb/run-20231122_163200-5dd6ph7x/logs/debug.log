@@ -1,0 +1,35 @@
+2023-11-22 16:32:00,722 INFO    Thread-18 :9280 [wandb_setup.py:_flush():76] Current SDK version is 0.15.12
+2023-11-22 16:32:00,722 INFO    Thread-18 :9280 [wandb_setup.py:_flush():76] Configure stats pid to 9280
+2023-11-22 16:32:00,731 INFO    Thread-18 :9280 [wandb_setup.py:_flush():76] Loading settings from C:\Users\COMPUTOCKS\.config\wandb\settings
+2023-11-22 16:32:00,731 INFO    Thread-18 :9280 [wandb_setup.py:_flush():76] Loading settings from C:\Users\COMPUTOCKS\Desktop\semestre_5\machine_learning\wandb\settings
+2023-11-22 16:32:00,731 INFO    Thread-18 :9280 [wandb_setup.py:_flush():76] Loading settings from environment variables: {'project': 'EstrogenReceptor_FeedForwardNN', 'entity': 'simios', 'root_dir': 'C:\\Users\\COMPUTOCKS\\Desktop\\semestre_5\\machine_learning', 'run_id': '5dd6ph7x', 'sweep_param_path': 'C:\\Users\\COMPUTOCKS\\Desktop\\semestre_5\\machine_learning\\wandb\\sweep-kftl7zln\\config-5dd6ph7x.yaml', 'sweep_id': 'kftl7zln'}
+2023-11-22 16:32:00,733 INFO    Thread-18 :9280 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2023-11-22 16:32:00,733 INFO    Thread-18 :9280 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'FFNN.py', 'program_abspath': 'c:\\Users\\COMPUTOCKS\\Desktop\\semestre_5\\machine_learning\\FFNN.py', 'program': 'c:/Users/COMPUTOCKS/Desktop/semestre_5/machine_learning/FFNN.py'}
+2023-11-22 16:32:00,734 INFO    Thread-18 :9280 [wandb_init.py:_log_setup():528] Logging user logs to C:\Users\COMPUTOCKS\Desktop\semestre_5\machine_learning\wandb\run-20231122_163200-5dd6ph7x\logs\debug.log
+2023-11-22 16:32:00,734 INFO    Thread-18 :9280 [wandb_init.py:_log_setup():529] Logging internal logs to C:\Users\COMPUTOCKS\Desktop\semestre_5\machine_learning\wandb\run-20231122_163200-5dd6ph7x\logs\debug-internal.log
+2023-11-22 16:32:00,735 INFO    Thread-18 :9280 [wandb_init.py:init():568] calling init triggers
+2023-11-22 16:32:00,736 INFO    Thread-18 :9280 [wandb_init.py:init():576] wandb.init called with sweep_config: {'batch_size': 103.45653650361596, 'delta_es': 0.06517410609611693, 'epochs': 2000, 'learning_rate': 0.02035881191825476, 'patience': 6.977087610829345, 'weight_decay_opt': 0.341385057409924}
+config: {'epochs': 1000, 'batch_size': 10, 'learning_rate': 0.0001, 'weight_decay': 0.025, 'patience': 5, 'delta_earlyStopping': 0.001}
+2023-11-22 16:32:00,736 INFO    Thread-18 :9280 [wandb_init.py:init():618] starting backend
+2023-11-22 16:32:00,736 INFO    Thread-18 :9280 [wandb_init.py:init():622] setting up manager
+2023-11-22 16:32:00,766 INFO    Thread-18 :9280 [backend.py:_multiprocessing_setup():107] multiprocessing start_methods=spawn, using: spawn
+2023-11-22 16:32:00,766 INFO    Thread-18 :9280 [wandb_init.py:init():628] backend started and connected
+2023-11-22 16:32:00,785 INFO    Thread-18 :9280 [wandb_run.py:_config_callback():1324] config_cb None None {'batch_size': 103.45653650361596, 'delta_es': 0.06517410609611693, 'epochs': 2000, 'learning_rate': 0.02035881191825476, 'patience': 6.977087610829345, 'weight_decay_opt': 0.341385057409924}
+2023-11-22 16:32:00,785 INFO    Thread-18 :9280 [wandb_init.py:init():720] updated telemetry
+2023-11-22 16:32:00,845 INFO    Thread-18 :9280 [wandb_init.py:init():753] communicating run to backend with 90.0 second timeout
+2023-11-22 16:32:01,246 INFO    Thread-18 :9280 [wandb_run.py:_on_init():2220] communicating current version
+2023-11-22 16:32:01,507 INFO    Thread-18 :9280 [wandb_run.py:_on_init():2229] got version response upgrade_message: "wandb version 0.16.0 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2023-11-22 16:32:01,507 INFO    Thread-18 :9280 [wandb_init.py:init():804] starting run threads in backend
+2023-11-22 16:32:01,801 INFO    Thread-18 :9280 [wandb_run.py:_console_start():2199] atexit reg
+2023-11-22 16:32:01,801 INFO    Thread-18 :9280 [wandb_run.py:_redirect():2054] redirect: wrap_raw
+2023-11-22 16:32:01,801 INFO    Thread-18 :9280 [wandb_run.py:_redirect():2119] Wrapping output streams.
+2023-11-22 16:32:01,801 INFO    Thread-18 :9280 [wandb_run.py:_redirect():2144] Redirects installed.
+2023-11-22 16:32:01,807 INFO    Thread-18 :9280 [wandb_init.py:init():845] run started, returning control to user process
+2023-11-22 16:32:01,834 INFO    Thread-18 :9280 [wandb_run.py:_finish():1934] finishing run simios/EstrogenReceptor_FeedForwardNN/5dd6ph7x
+2023-11-22 16:32:01,834 INFO    Thread-18 :9280 [wandb_run.py:_atexit_cleanup():2168] got exitcode: 1
+2023-11-22 16:32:01,834 INFO    Thread-18 :9280 [wandb_run.py:_restore():2151] restore
+2023-11-22 16:32:01,834 INFO    Thread-18 :9280 [wandb_run.py:_restore():2157] restore done
+2023-11-22 16:32:04,431 INFO    Thread-18 :9280 [wandb_run.py:_footer_history_summary_info():3599] rendering history
+2023-11-22 16:32:04,431 INFO    Thread-18 :9280 [wandb_run.py:_footer_history_summary_info():3631] rendering summary
+2023-11-22 16:32:04,431 INFO    Thread-18 :9280 [wandb_run.py:_footer_sync_info():3558] logging synced files

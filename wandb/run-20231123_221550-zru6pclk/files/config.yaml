@@ -1,0 +1,54 @@
+wandb_version: 1
+
+batch_size:
+  desc: null
+  value: 105
+delta_es:
+  desc: null
+  value: 0.08445903933563195
+epochs:
+  desc: null
+  value: 2000
+learning_rate:
+  desc: null
+  value: 0.09265635749794708
+patience:
+  desc: null
+  value: 17
+weight_decay_opt:
+  desc: null
+  value: 0.1969716465565239
+_name:
+  desc: null
+  value: wandb.config
+_wandb:
+  desc: null
+  value:
+    python_version: 3.7.9
+    cli_version: 0.16.0
+    framework: torch
+    is_jupyter_run: false
+    is_kaggle_kernel: false
+    start_time: 1700799350.038073
+    t:
+      1:
+      - 1
+      - 5
+      - 53
+      - 55
+      2:
+      - 1
+      - 5
+      - 53
+      - 55
+      3:
+      - 2
+      - 16
+      - 23
+      - 37
+      4: 3.7.9
+      5: 0.16.0
+      8:
+      - 3
+      - 5
+      13: windows-amd64

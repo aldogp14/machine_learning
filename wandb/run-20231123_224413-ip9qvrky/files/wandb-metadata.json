@@ -1,0 +1,45 @@
+{
+    "os": "Windows-10-10.0.22621-SP0",
+    "python": "3.7.9",
+    "heartbeatAt": "2023-11-24T04:44:13.976502",
+    "startedAt": "2023-11-24T04:44:13.037283",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "c:/Users/COMPUTOCKS/Desktop/semestre_5/machine_learning/final.py",
+    "codePathLocal": "final.py",
+    "codePath": "final.py",
+    "git": {
+        "remote": "https://github.com/aldogp14/machine_learning.git",
+        "commit": "b81ee4b37cc637000d95c733229d35c250205b5b"
+    },
+    "email": "aldogp@lcg.unam.mx",
+    "root": "C:/Users/COMPUTOCKS/Desktop/semestre_5/machine_learning",
+    "host": "DESKTOP-J864HIV",
+    "username": "COMPUTOCKS",
+    "executable": "C:\\Users\\COMPUTOCKS\\AppData\\Local\\Programs\\Python\\Python37\\python.exe",
+    "cpu_count": 4,
+    "cpu_count_logical": 8,
+    "cpu_freq": {
+        "current": 1910.0,
+        "min": 0.0,
+        "max": 2112.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 1910.0,
+            "min": 0.0,
+            "max": 2112.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 237.68847274780273,
+            "used": 102.54056930541992
+        }
+    },
+    "memory": {
+        "total": 7.837867736816406
+    }
+}

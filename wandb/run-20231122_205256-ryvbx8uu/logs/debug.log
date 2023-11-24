@@ -1,0 +1,65 @@
+2023-11-22 20:52:56,538 INFO    MainThread:11644 [wandb_setup.py:_flush():76] Current SDK version is 0.16.0
+2023-11-22 20:52:56,538 INFO    MainThread:11644 [wandb_setup.py:_flush():76] Configure stats pid to 11644
+2023-11-22 20:52:56,542 INFO    MainThread:11644 [wandb_setup.py:_flush():76] Loading settings from C:\Users\COMPUTOCKS\.config\wandb\settings
+2023-11-22 20:52:56,542 INFO    MainThread:11644 [wandb_setup.py:_flush():76] Loading settings from C:\Users\COMPUTOCKS\Desktop\semestre_5\machine_learning\wandb\settings
+2023-11-22 20:52:56,542 INFO    MainThread:11644 [wandb_setup.py:_flush():76] Loading settings from environment variables: {'project': 'EstrogenReceptor_FeedForwardNN'}
+2023-11-22 20:52:56,542 INFO    MainThread:11644 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'FFNN.py', 'program_abspath': 'c:\\Users\\COMPUTOCKS\\Desktop\\semestre_5\\machine_learning\\FFNN.py', 'program': 'c:/Users/COMPUTOCKS/Desktop/semestre_5/machine_learning/FFNN.py'}
+2023-11-22 20:52:56,547 INFO    MainThread:11644 [wandb_init.py:_log_setup():524] Logging user logs to C:\Users\COMPUTOCKS\Desktop\semestre_5\machine_learning\wandb\run-20231122_205256-ryvbx8uu\logs\debug.log
+2023-11-22 20:52:56,547 INFO    MainThread:11644 [wandb_init.py:_log_setup():525] Logging internal logs to C:\Users\COMPUTOCKS\Desktop\semestre_5\machine_learning\wandb\run-20231122_205256-ryvbx8uu\logs\debug-internal.log
+2023-11-22 20:52:56,547 INFO    MainThread:11644 [wandb_init.py:init():564] calling init triggers
+2023-11-22 20:52:56,547 INFO    MainThread:11644 [wandb_init.py:init():572] wandb.init called with sweep_config: {}
+config: {'epochs': 1000, 'batch_size': 10, 'learning_rate': 0.0001, 'weight_decay': 0.025, 'patience': 5, 'delta_earlyStopping': 0.001}
+2023-11-22 20:52:56,552 INFO    MainThread:11644 [wandb_init.py:init():614] starting backend
+2023-11-22 20:52:56,552 INFO    MainThread:11644 [wandb_init.py:init():618] setting up manager
+2023-11-22 20:52:56,568 INFO    MainThread:11644 [backend.py:_multiprocessing_setup():107] multiprocessing start_methods=spawn, using: spawn
+2023-11-22 20:52:56,572 INFO    MainThread:11644 [wandb_init.py:init():624] backend started and connected
+2023-11-22 20:52:56,583 INFO    MainThread:11644 [wandb_init.py:init():716] updated telemetry
+2023-11-22 20:52:56,657 INFO    MainThread:11644 [wandb_init.py:init():749] communicating run to backend with 90.0 second timeout
+2023-11-22 20:52:57,209 INFO    MainThread:11644 [wandb_run.py:_on_init():2254] communicating current version
+2023-11-22 20:52:57,922 INFO    MainThread:11644 [wandb_run.py:_on_init():2263] got version response 
+2023-11-22 20:52:57,923 INFO    MainThread:11644 [wandb_init.py:init():800] starting run threads in backend
+2023-11-22 20:52:58,107 INFO    MainThread:11644 [wandb_run.py:_console_start():2233] atexit reg
+2023-11-22 20:52:58,107 INFO    MainThread:11644 [wandb_run.py:_redirect():2088] redirect: wrap_raw
+2023-11-22 20:52:58,107 INFO    MainThread:11644 [wandb_run.py:_redirect():2153] Wrapping output streams.
+2023-11-22 20:52:58,107 INFO    MainThread:11644 [wandb_run.py:_redirect():2178] Redirects installed.
+2023-11-22 20:52:58,107 INFO    MainThread:11644 [wandb_init.py:init():841] run started, returning control to user process
+2023-11-22 20:53:18,639 INFO    MainThread:11644 [pyagent.py:run():316] Starting sweep agent: entity=None, project=None, count=5
+2023-11-22 20:53:28,911 WARNING MsgRouterThr:11644 [router.py:message_loop():77] message_loop has been closed
+2023-11-22 20:53:31,830 INFO    Thread-12 :11644 [wandb_setup.py:_flush():76] Current SDK version is 0.16.0
+2023-11-22 20:53:31,830 INFO    Thread-12 :11644 [wandb_setup.py:_flush():76] Configure stats pid to 11644
+2023-11-22 20:53:31,830 INFO    Thread-12 :11644 [wandb_setup.py:_flush():76] Loading settings from C:\Users\COMPUTOCKS\.config\wandb\settings
+2023-11-22 20:53:31,837 INFO    Thread-12 :11644 [wandb_setup.py:_flush():76] Loading settings from C:\Users\COMPUTOCKS\Desktop\semestre_5\machine_learning\wandb\settings
+2023-11-22 20:53:31,837 INFO    Thread-12 :11644 [wandb_setup.py:_flush():76] Loading settings from environment variables: {'project': 'EstrogenReceptor_FeedForwardNN', 'entity': 'simios', 'root_dir': 'C:\\Users\\COMPUTOCKS\\Desktop\\semestre_5\\machine_learning', 'sweep_id': 'jyuquxiz', 'run_id': 'i7id7fcs', 'sweep_param_path': 'C:\\Users\\COMPUTOCKS\\Desktop\\semestre_5\\machine_learning\\wandb\\sweep-jyuquxiz\\config-i7id7fcs.yaml'}
+2023-11-22 20:53:31,837 INFO    Thread-12 :11644 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2023-11-22 20:53:31,837 INFO    Thread-12 :11644 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'FFNN.py', 'program_abspath': 'c:\\Users\\COMPUTOCKS\\Desktop\\semestre_5\\machine_learning\\FFNN.py', 'program': 'c:/Users/COMPUTOCKS/Desktop/semestre_5/machine_learning/FFNN.py'}
+2023-11-22 20:53:31,837 INFO    Thread-12 :11644 [wandb_init.py:_log_setup():524] Logging user logs to C:\Users\COMPUTOCKS\Desktop\semestre_5\machine_learning\wandb\run-20231122_205331-i7id7fcs\logs\debug.log
+2023-11-22 20:53:31,837 INFO    Thread-12 :11644 [wandb_init.py:_log_setup():525] Logging internal logs to C:\Users\COMPUTOCKS\Desktop\semestre_5\machine_learning\wandb\run-20231122_205331-i7id7fcs\logs\debug-internal.log
+2023-11-22 20:53:31,844 INFO    Thread-12 :11644 [wandb_init.py:init():564] calling init triggers
+2023-11-22 20:53:31,844 INFO    Thread-12 :11644 [wandb_init.py:init():572] wandb.init called with sweep_config: {'batch_size': 47.2001485709056, 'delta_es': 0.044659398411199334, 'epochs': 2000, 'learning_rate': 0.08997067813812587, 'patience': 8.219516982113735, 'weight_decay_opt': 0.08150491527327641}
+config: {'epochs': 1000, 'batch_size': 10, 'learning_rate': 0.0001, 'weight_decay': 0.025, 'patience': 5, 'delta_earlyStopping': 0.001}
+2023-11-22 20:53:31,844 INFO    Thread-12 :11644 [wandb_init.py:init():609] wandb.init() called when a run is still active
+2023-11-22 20:53:32,093 ERROR   Thread-12 :11644 [wandb_init.py:init():1194] error
+Traceback (most recent call last):
+  File "C:\Users\COMPUTOCKS\AppData\Local\Programs\Python\Python37\lib\site-packages\wandb\sdk\wandb_init.py", line 1166, in init
+    run = wi.init()
+  File "C:\Users\COMPUTOCKS\AppData\Local\Programs\Python\Python37\lib\site-packages\wandb\sdk\wandb_init.py", line 611, in init
+    tel.feature.init_return_run = True
+  File "C:\Users\COMPUTOCKS\AppData\Local\Programs\Python\Python37\lib\site-packages\wandb\sdk\lib\telemetry.py", line 42, in __exit__
+    self._run._telemetry_callback(self._obj)
+  File "C:\Users\COMPUTOCKS\AppData\Local\Programs\Python\Python37\lib\site-packages\wandb\sdk\wandb_run.py", line 758, in _telemetry_callback
+    self._telemetry_flush()
+  File "C:\Users\COMPUTOCKS\AppData\Local\Programs\Python\Python37\lib\site-packages\wandb\sdk\wandb_run.py", line 769, in _telemetry_flush
+    self._backend.interface._publish_telemetry(self._telemetry_obj)
+  File "C:\Users\COMPUTOCKS\AppData\Local\Programs\Python\Python37\lib\site-packages\wandb\sdk\interface\interface_shared.py", line 101, in _publish_telemetry
+    self._publish(rec)
+  File "C:\Users\COMPUTOCKS\AppData\Local\Programs\Python\Python37\lib\site-packages\wandb\sdk\interface\interface_sock.py", line 51, in _publish
+    self._sock_client.send_record_publish(record)
+  File "C:\Users\COMPUTOCKS\AppData\Local\Programs\Python\Python37\lib\site-packages\wandb\sdk\lib\sock_client.py", line 221, in send_record_publish
+    self.send_server_request(server_req)
+  File "C:\Users\COMPUTOCKS\AppData\Local\Programs\Python\Python37\lib\site-packages\wandb\sdk\lib\sock_client.py", line 155, in send_server_request
+    self._send_message(msg)
+  File "C:\Users\COMPUTOCKS\AppData\Local\Programs\Python\Python37\lib\site-packages\wandb\sdk\lib\sock_client.py", line 152, in _send_message
+    self._sendall_with_error_handle(header + data)
+  File "C:\Users\COMPUTOCKS\AppData\Local\Programs\Python\Python37\lib\site-packages\wandb\sdk\lib\sock_client.py", line 130, in _sendall_with_error_handle
+    sent = self._sock.send(data)
+ConnectionResetError: [WinError 10054] Se ha forzado la interrupción de una conexión existente por el host remoto

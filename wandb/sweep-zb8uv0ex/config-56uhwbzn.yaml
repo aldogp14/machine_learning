@@ -1,0 +1,14 @@
+wandb_version: 1
+
+batch_size:
+  value: 125
+delta_es:
+  value: 0.001594933879936519
+epochs:
+  value: 2000
+learning_rate:
+  value: 0.06442637811752165
+patience:
+  value: 11
+weight_decay_opt:
+  value: 0.20987475661736843

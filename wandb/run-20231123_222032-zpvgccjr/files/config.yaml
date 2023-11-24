@@ -1,0 +1,82 @@
+wandb_version: 1
+
+batch_size:
+  desc: null
+  value: 126
+delta_es:
+  desc: null
+  value: 0.026110373895281723
+epochs:
+  desc: null
+  value: 2000
+learning_rate:
+  desc: null
+  value: 0.03773545569294416
+patience:
+  desc: null
+  value: 7
+weight_decay_opt:
+  desc: null
+  value: 0.49368986586962377
+method:
+  desc: null
+  value: random
+name:
+  desc: null
+  value: EstrogenReceptor_FeedForwardNN
+metric:
+  desc: null
+  value:
+    goal: minimize
+    name: loss_validation
+parameters:
+  desc: null
+  value:
+    epochs:
+      value: 2000
+    batch_size:
+      min: 3
+      max: 162
+    learning_rate:
+      min: 5.0e-05
+      max: 0.1
+    patience:
+      min: 3
+      max: 25
+    weight_decay_opt:
+      min: 0.01
+      max: 0.5
+    delta_es:
+      min: 0.0001
+      max: 0.1
+_wandb:
+  desc: null
+  value:
+    python_version: 3.7.9
+    cli_version: 0.16.0
+    framework: torch
+    is_jupyter_run: false
+    is_kaggle_kernel: false
+    start_time: 1700799632.617815
+    t:
+      1:
+      - 1
+      - 5
+      - 53
+      - 55
+      2:
+      - 1
+      - 5
+      - 53
+      - 55
+      3:
+      - 2
+      - 16
+      - 23
+      - 37
+      4: 3.7.9
+      5: 0.16.0
+      8:
+      - 3
+      - 5
+      13: windows-amd64
